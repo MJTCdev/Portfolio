@@ -9,6 +9,7 @@ Red Hex Code: #C20114
 .container {
   display: flexbox;
   border-radius: 10px;
+  justify-content: center;
 }
 
 .navbar-collapse {
