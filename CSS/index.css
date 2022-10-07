@@ -31,6 +31,10 @@ Red Hex Code: #C20114
 
 /* projects-section */
 
+.projects-section {
+  text-align: center;
+}
+
 /* contact-section */
 
 .contact-section {
