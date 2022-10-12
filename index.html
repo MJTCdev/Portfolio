@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="./CSS/aos.css"/>
     <link rel="stylesheet" href="./CSS/line-awesome.min.css"/>
   </head>
-  <body>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
     <!-- Create sections within html to organize page (Ex. <header></header> , <main></main> , <footer></footer>)-->
     <header>
       <!-- NAVBAR -->
@@ -45,10 +45,10 @@
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#about">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -67,7 +67,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8">
-                        <h1 class="display-4 fw-bold">I am a <span class="text-brand">Web Developer</span> from Las Vegas</h1>
+                        <h1 class="display-4 fw-bold" data-aos="fade-up">I am a <span class="text-brand">Web Developer</span> from Las Vegas</h1>
                         <p class="lead mt-2 mb-4">
                             Ready to create innovative and efficient solutions/designs for you.
                         </p>
@@ -77,6 +77,26 @@
                 </div>
             </div>
         </section>
+
+
+
+     <!-- PROJECTS -->
+        <section id="projects">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1 class="text-brand">Projects</h1>
+                        
+                
+                      
+                    </div>
+                </div>
+
+          
+            </div>
+      
+        </section>
+  <!-- // PROJECTS -->
 
         <!-- ABOUT -->
 
@@ -112,127 +132,6 @@
         </section>
      <!--// ABOUT -->
 
-     <!-- PROJECTS -->
-        <section id="projects">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8">
-                        <h1 class="text-brand">Projects</h1>
-            
-                        <div class="row align-items-start">
-                          <div class="card col-sm-12 projects-carousel">
-                            <div id="project-item-container" class="carousel slide" data-bs-ride="carousel">
-                              <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                  <div class="container">
-                                    <div class="row">
-                                      <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="width: 300px; margin: auto;">
-                                          <img src="img/code-pic.jpg" class="card-img-top">
-                                          <div class="card-body">
-                                            <h4 class="card-title">Code Project 1</h4>
-                                            <p class="card-text">First project description goes here, this is what i did and my code.</p>
-                                            <button type="button" class="btn btn-warning">View Case Study</button>
-                                          </div>
-            
-                                        </div>
-            
-                                      </div>
-                                      <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="width: 300px; margin: auto;">
-                                          <img src="img/weights.jpg" class="card-img-top">
-                                          <div class="card-body">
-                                            <h4 class="card-title">Code Project 2</h4>
-                                            <p class="card-text">Next project description goes here, this is what i did and my code.</p>
-                                            <button type="button" class="btn btn-warning">View Case Study</button>
-                                          </div>
-            
-                                        </div>
-            
-                                      </div>
-                                      <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="width: 300px; margin: auto;">
-                                          <img src="img/pokemon-cards.jpg" class="card-img-top">
-                                          <div class="card-body">
-                                            <h4 class="card-title">Code Project 3</h4>
-                                            <p class="card-text">Next project description goes here, this is what i did and my code.</p>
-                                            <button type="button" class="btn btn-warning">View Case Study</button>
-                                          </div>
-            
-                                        </div>
-            
-                                      </div>
-            
-                                    </div>
-                                  </div>
-                                </div>
-                                <div class="carousel-item">
-                                  <div class="container">
-                                    <div class="row">
-                                      <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="width: 300px; margin: auto;">
-                                          <img src="img/shadow-lift.jpg" class="card-img-top">
-                                          <div class="card-body">
-                                            <h4 class="card-title">Code Project 4</h4>
-                                            <p class="card-text">First project description goes here, this is what i did and my code.</p>
-                                            <button type="button" class="btn btn-warning">View Case Study</button>
-                                          </div>
-            
-                                        </div>
-            
-                                      </div>
-                                      <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="width: 300px; margin: auto;">
-                                          <img src="img/code-desktop.jpg" class="card-img-top">
-                                          <div class="card-body">
-                                            <h4 class="card-title">Code Project 5</h4>
-                                            <p class="card-text">Next project description goes here, this is what i did and my code.</p>
-                                            <button type="button" class="btn btn-warning">View Case Study</button>
-                                          </div>
-            
-                                        </div>
-            
-                                      </div>
-                                      <div class="col-sm-12 col-lg-4">
-                                        <div class="card" style="width: 300px; margin: auto;">
-                                          <img src="img/star-gaze.jpg" class="card-img-top">
-                                          <div class="card-body">
-                                            <h4 class="card-title">Code Project 6</h4>
-                                            <p class="card-text">Next project description goes here, this is what i did and my code.</p>
-                                            <button type="button" class="btn btn-warning">View Case Study</button>
-                                          </div>
-            
-                                        </div>
-            
-                                      </div>
-            
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <button class="carousel-control-prev" type="button" data-bs-target="#project-item-container" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                              </button>
-                              <button class="carousel-control-next" type="button" data-bs-target="#project-item-container" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                              </button>
-                            </div>
-                          </div>
-                        
-                    
-                        
-                        </div>
-                      
-                    </div>
-                </div>
-
-          
-          </div>
-      
-        </section>
-  <!-- // PROJECTS -->
      <!-- CONTACT -->
 
       <section id="contact">
@@ -251,12 +150,12 @@
     <footer></footer>
 
     <!-- Javascript links are still at the end of the body so they load last -->
-    <script src="" async defer></script>
     <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
-      crossorigin="anonymous"
-    ></script>
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"
+  ></script>
     <script src="/JS/aos.js"></script>
+    <script src="./JS/main.js"></script>
   </body>
 </html>
