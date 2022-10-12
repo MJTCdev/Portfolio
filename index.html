@@ -69,11 +69,14 @@
                 <div class="row">
                     <div class="col-lg-10">
                         <h1 class="display-4 fw-bold" data-aos="fade-up">I am a <span class="text-brand">Web Developer</span> from Las Vegas</h1>
-                        <p class="lead mt-2 mb-4">
+                        <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
                             Ready to create innovative and efficient solutions/designs for you.
                         </p>
-                       <a href="#" class="btn btn-brand">Resume</a>
-                       <a href="#contact" class="link-custom">Contact for Colloboration</a>
+                        <div data-aos="fade-up" data-aos-delay="600">
+                            <a href="#" class="btn btn-brand">Resume</a>
+                            <a href="#contact" class="link-custom">Contact for Colloboration</a>
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -82,14 +85,26 @@
 
 
      <!-- PROJECTS -->
-        <section id="projects">
+        <section id="projects" class="full-height px-lg-5">
             <div class="container">
-                <div class="row">
+                <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
-                        <h1 class="text-brand">Projects</h1>
-                        
-                
-                      
+                        <h6 class="text-brand">Projects</h6>
+                        <h1>My Recent Projects</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="card-custom rounded-4 bg-base shadow-effect">
+                            <div class="class-custom-image rounded-4">
+                                <img class="rounded-4"src="./img/pokemon-cards.jpg">
+                            </div>
+                            <div class="card-custom-content p-4">
+                               <h4>Pokedex API Project</h4> 
+                               <p>A basic API project using React.js for a simple and responsive UI.</p>
+                               <a href="#" class="link-custom">Read More</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -103,7 +118,7 @@
 
         <section id="about" class="full-height px-lg-5">
             <div class="container">
-                <div class="row pb-4">
+                <div class="row pb-4" data-aos="fade-up">
                     <div class="col-lg-8">
                         <h1 class="text-brand">About</h1>
                         <p>
@@ -135,7 +150,7 @@
 
      <!-- CONTACT -->
 
-      <section id="contact">
+      <section id="contact" data-aos="fade-up">
         <h1 class="text-brand">Contact</h1>
         <p>Location: Las Vegas, Nevada</p>
         <p>dev.michaelchan@gmail.com</p>
