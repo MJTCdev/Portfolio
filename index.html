@@ -22,7 +22,7 @@
     <!-- Create sections within html to organize page (Ex. <header></header> , <main></main> , <footer></footer>)-->
     <header>
       <!-- NAVBAR -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <div class="container flex-lg-column">
           <a class="navbar-brand mx-lg-auto mb-lg-4" href="#">
             <span class="h3 fw-bold d-block d-lg-none">Michael Chan</span>
@@ -60,31 +60,46 @@
       <!-- //NAVBAR -->
     </header>
     <!-- Most of the page will be in main and you can add sections by using <section></section> -->
-    <main>
-        <section class="about-section">
-            <h1>About</h1>
+    <!-- CONTENT -->
+    <main id="content-wrapper">
+
+        <section id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1>I am a Web Developer from Las Vegas</h1>
+                        <p>
+                            Ready to create innovative and efficient solutions/designs for you.
+                        </p>
+                       <a href="#" class="btn btn-brand">Resume</a>
+                       <a href="#" class="link-custom">Contact for Colloboration</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
             <p>
-              I'm a software engineer and web developer. I enjoy problem solving
-              while trying to be efficient and creative whenever possible. I work
-              well with others and love it when teamwork makes a a group more than
-              the sum of the parts.<br />I have years of experience in sales and
-              customer service where I learned how valuable a user/customer
-              experience is. Being a part of a wide variety of social communities
-              such as first responders, athletes, and artists has given me a great
-              position to understand many different people and their needs. <br />
-              Please reach out if you have any questions for me as I'd be happy to
-              answer them.
-            </p>
-            <h1>Languages</h1>
-            <ul>
-                <li>SQL</li>
-                <li>HTML</li>
-                <li>CSS</li>
-            </ul>
-           
-          </section>
+                I'm a software engineer and web developer. I enjoy problem solving
+                while trying to be efficient and creative whenever possible. I work
+                well with others and love it when teamwork makes a a group more than
+                the sum of the parts.<br />I have years of experience in sales and
+                customer service where I learned how valuable a user/customer
+                experience is. Being a part of a wide variety of social communities
+                such as first responders, athletes, and artists has given me a great
+                position to understand many different people and their needs. <br />
+                Please reach out if you have any questions for me as I'd be happy to
+                answer them.
+                        </p>
+                    <h1>Languages</h1>
+                    <ul>
+                        <li>SQL</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </ul>
+        </section>
      
-        <section class="projects-section">
+        <section id="projects">
 
           <div class="container-fluid text-center">
 
@@ -208,6 +223,9 @@
         <p>dev.michaelchan@gmail.com</p>
         <p>https://github.com/MJTCdev</p>
       </section>
+
+       <!-- // CONTENT -->
+
     </main>
     <!-- Begin footer/end of page -->
     <footer></footer>
