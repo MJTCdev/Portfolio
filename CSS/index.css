@@ -39,42 +39,4 @@ img {
 
 
 
-/* Navbar */
 
-.container {
-  display: flexbox;
-  border-radius: 10px;
-  justify-content: center;
-}
-
-.navbar-collapse {
-  flex-grow: 0;
-}
-
-.container-fluid {
-  background-color: #c7d6d5;
-  border-radius: 10px;
-}
-
-/* about-section */
-
-.about-section {
-  border: 5px;
-  border-color: #000000;
-  border-style: double;
-}
-
-/* projects-section */
-
-.projects-carousel{
-  background-color: #c7d6d5
-}
-
-/* contact-section */
-
-.contact-section {
-  border: 5px;
-  border-color: #c7d6d5;
-  border-style: double;
-  text-align: center;
-}
