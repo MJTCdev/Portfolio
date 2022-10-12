@@ -37,6 +37,31 @@ img {
 }
 
 
+/* NAVBAR */
 
+.navbar .nav-link { 
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.navbar .nav-link:hover {
+  color: var(--color-brand);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    min-height: 100vh;
+    width: var(--sidebar-width);
+    background: linear-gradient(rgba(3, 63, 71, 0.8), rgba(3, 63, 71, 0.8)), url(../img/luffy.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .navbar-brand img {
+    border: 8px solid var(--color-brand);
+  }
+
+}
 
 
